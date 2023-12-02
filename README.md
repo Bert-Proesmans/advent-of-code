@@ -7,9 +7,9 @@ None.
 ## Layout
 
 This is a mono-repo containing all advent of code solutions I've ever created.  
-Check [./src/bin] for all solution implementations.
+Check [/src/bin](/src/bin) for all solution implementations.
 
-This repository holds a simple procedural macro that wraps each solution to automatically inject the input data from the folder [./inputs]. This macro provides interaction with cargo, `cargo run --bin` works as expected.
+This repository holds a simple procedural macro that wraps each solution to automatically inject the input data from the folder [/inputs](/inputs). This macro provides interaction with cargo, `cargo run --bin` works as expected.
 
 Input parsing is handled by crate [aoc-parse](https://lib.rs/crates/aoc-parse), check [its documentation](https://docs.rs/aoc-parse/0.2.17/aoc_parse/index.html) for more details on the parser composition.
 
